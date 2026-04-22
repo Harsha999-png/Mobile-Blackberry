@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+.blackberry-curve-2 {
+    width: 320px;
+    height: 560px;
+    background-color: #fdfdfd;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+
+
+.top-bar {
+    height: 20px;
+    background-color: #333;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.screen {
+    background-color: #c0c0c0;
+    height: 240px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.status-bar {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.homescreen {
+    height: 100%;
+    position: relative;
+}
+
+.homescreen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    padding: 10px;
+    font-size: 14px;
+	height: 100%;
+    position: relative;
+}
+
+.content h1 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 5px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navigation button {
+    width: 50px;
+    height: 50px;
+    
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.navigation .call {
+   
+}
+
+.navigation .end {
+   }
+
+.navigation .trackpad {
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.keyboard button {
+    width: 28px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.keyboard button.wide {
+    width: 42px;
+}
+
+.keyboard button.extra-wide {
+    width: 84px;
+}
+
+.navigation img {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
