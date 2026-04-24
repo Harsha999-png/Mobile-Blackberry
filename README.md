@@ -4,7 +4,7 @@ An interactive web-based recreation of the classic BlackBerry Curve 2 phone. Bui
 
 ## Live Demo
 
-Visit the live site: https://Harsha999-png.github.io/Mobile-Blackberry/
+Visit the live site: https://HarshaSreeG.github.io/Mobile-Blackberry/
 
 ## Features
 
